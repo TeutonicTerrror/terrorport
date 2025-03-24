@@ -1,0 +1,41 @@
+main {
+    margin-top: 100px;
+}
+
+section {
+    scroll-margin-top: 100px;
+}
+
+.contact-method {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-method .button {
+    margin-bottom: 1.5rem;
+}
+
+.contact-method p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8);
+    word-break: break-all;
+}
+
+.project-card h3 i {
+    margin-right: 1rem;
+    color: var(--accent-1);
+}
+
+@media (max-width: 768px) {
+    .contact-method {
+        padding: 1rem;
+    }
+    
+    main {
+        margin-top: 80px;
+    }
+    
+    section {
+        scroll-margin-top: 80px;
+    }
+}

@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+:root {
+    --primary-color: #0a0a0a;
+    --accent-1: #0066ff;
+    --accent-2: #00ccff;
+    --text-color: rgba(255, 255, 255, 0.9);
+    --mouse-x: 50%;
+    --mouse-y: 50%;
+}
+
+body {
+    line-height: 1.6;
+    color: var(--text-color);
+    background: linear-gradient(45deg, #000000, #0a0a23);
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 50%, rgba(var(--accent-1), 0.1) 0%, rgba(10, 10, 10, 0) 70%);
+    z-index: -1;
+}
+
+header {
+    padding: 2rem 5%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(10, 10, 10, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(var(--accent-1), 0.1);
+    z-index: 1000;
+    overflow: hidden;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    background: radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(var(--accent-1), 0.25), transparent 50%);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.3s ease, transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+header.active::before {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-links a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.nav-links a:hover {
+    color: var(--accent-1);
+    transform: translateY(-2px);
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    margin-top: -4rem;
+    position: relative;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(45deg, var(--accent-1), var(--accent-2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.projects {
+    padding: 5rem 5%;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background: rgba(20, 20, 20, 0.6);
+    padding: 1.5rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(var(--accent-1), 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, var(--accent-1), var(--accent-2), var(--accent-1));
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    background: rgba(20, 20, 20, 0.8);
+}
+
+.project-card:hover::before {
+    opacity: 0.1;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid rgba(var(--accent-1), 0.1);
+    margin-top: 4rem;
+    background: rgba(10, 10, 10, 0.9);
+}
+
+.button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: linear-gradient(45deg, var(--accent-1), var(--accent-2));
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transition: left 0.6s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+.button:hover::before {
+    left: 100%;
+}
+
+.hero .tech-stack {
+    margin: 1.5rem 0 2.5rem;
+}
+
+.hero .tech-stack span {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid rgba(var(--accent-1), 0.3);
+    transition: all 0.3s ease;
+    cursor: default;
+    margin: 0.3rem;
+}
+
+.hero .tech-stack span:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.15);
+    border-color: var(--accent-1);
+    box-shadow: 0 4px 15px rgba(var(--accent-1), 0.2);
+}
+
+.project-features {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    opacity: 0.9;
+    list-style-type: square;
+}
+
+.tech-stack i {
+    font-size: 1.5rem;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.tech-stack i:hover {
+    opacity: 1;
+}
+
+.tech-stack i.fa-terminal {
+    color: #4CAF50;
+}
+
+.tech-stack i.fa-school {
+    color: #2196F3;
+}
+
+.tech-stack i.fa-chrome {
+    color: #4285F4;
+}
+
+.tech-stack i.fa-cube {
+    color: #FF5252;
+}
+
+.tech-stack i.fa-apple {
+    color: #999;
+}
+
+.cursor {
+    animation: blink 1s infinite;
+    font-weight: 300;
+    color: var(--accent-1);
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.social-links .button {
+    margin-right: 0.5rem;
+}
+
+.social-links a:not(.button) {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.6rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social-links a:not(.button):hover {
+    background: var(--accent-1);
+    transform: translateY(-2px);
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+}
+
