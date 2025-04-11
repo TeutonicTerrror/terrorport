@@ -48,6 +48,8 @@ A professional portfolio website showcasing development projects, technical blog
 ├── script.js
 ├── images/
 │ └── javascript.png
+│ └── profilewithBG.png
+│ └── profilewithoutBG.png
 └── README.md
 
 ## License
