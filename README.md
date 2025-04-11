@@ -39,6 +39,7 @@ A professional portfolio website showcasing development projects, technical blog
 - Cross-browser compatibility
 
 ## File Structure
+```
 ├── index.html
 ├── blogs.html
 ├── contacts.html
@@ -51,6 +52,7 @@ A professional portfolio website showcasing development projects, technical blog
 │ └── profilewithBG.png
 │ └── profilewithoutBG.png
 └── README.md
+```
 
 ## License
 MIT License - See [LICENSE](LICENSE) for details
