@@ -1,6 +1,6 @@
 # TeutonicTerror Portfolio Website
 
-![Website Preview](images/javascript.png)  
+![Website Preview](images/profilewithoutBG.png)  
 **Live Site**: [teutonicterror.pages.dev](https://teutonicterror.pages.dev)
 
 A professional portfolio website showcasing development projects, technical blog posts, and contact information.
