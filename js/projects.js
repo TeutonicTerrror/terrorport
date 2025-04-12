@@ -61,7 +61,7 @@ const projects = [
         features: ["Lots of bee facts", "Modern sources page", "Cool GUI", "Accurate information"],
         techStack: ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square", "fas fa-paint-brush"],
         link: "https://buzzinfo.pages.dev/pages/main",
-        buttonText: "Visit Now"
+        buttonText: "Visit Website"
     },
     {
         title: "Friscco Plaza Website",
@@ -70,6 +70,14 @@ const projects = [
         techStack: ["fab fa-html5", "fab fa-css3-alt"],
         link: "https://github.com/TeutonicTerrror/Friscco",
         buttonText: "Visit Repository"
+    },
+    {
+        title: "Study Sphere",
+        description: "An advanced school website with multiple tools and games to help students learning, featuring:",
+        features: ["MLA Citation Generator", "Advanced Calculator", "AI Engine", "and an Advanced Planner"],
+        techStack: ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square", "fas fa-paint-brush"],
+        link: "https://stdysphere.web.app/",
+        buttonText: "Visit Website"
     }
 ];
 
