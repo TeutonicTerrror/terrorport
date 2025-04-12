@@ -358,10 +358,11 @@ footer {
 
 .view-all-projects-button {
     display: block;
-    margin: 2rem auto; /* Centers the button horizontally */
-    width: 80%; /* Makes the button span 80% of the page width */
-    max-width: 1200px; /* Optional: Sets a maximum width for larger screens */
+    margin: 2rem auto;
+    width: 85%;
+    max-width: 1200px;
     padding: 1rem;
+    grid-column: 1 / -1;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
