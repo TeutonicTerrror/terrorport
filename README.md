@@ -24,10 +24,11 @@ A professional portfolio website showcasing development projects, technical blog
 | Home          | Main portfolio landing page          | `index.html`  |
 | Blog          | Technical articles and updates       | `blogs.html`  |
 | Contact       | Direct communication channels        | `contacts.html` |
+| Projects       | Direct communication channels        | `projects.html` |
 
 ## Technical Implementation
 
-### Frontend Stack
+### Site Frontend Stack
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -43,12 +44,15 @@ A professional portfolio website showcasing development projects, technical blog
 ├── index.html
 ├── blogs.html
 ├── contacts.html
+├── projects.html
 ├── css/
 │ └── main.css
 │ └──  blogs.css
+│ └──  projects.css
 │ └── contacts.css
 ├── js/
 │ └── ├── script.js
+│ └── ├── projects.js
 ├── images/
 │ └── javascript.png
 │ └── profilewithBG.png
