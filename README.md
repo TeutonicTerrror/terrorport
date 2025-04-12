@@ -43,10 +43,12 @@ A professional portfolio website showcasing development projects, technical blog
 ├── index.html
 ├── blogs.html
 ├── contacts.html
-├── style.css
-├── blogs.css
-├── contacts.css
-├── script.js
+├── css/
+│ └── main.css
+│ └──  blogs.css
+│ └── contacts.css
+├── js/
+│ └── ├── script.js
 ├── images/
 │ └── javascript.png
 │ └── profilewithBG.png
