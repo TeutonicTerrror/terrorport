@@ -1,0 +1,101 @@
+.search-bar {
+    margin: 2rem 5%;
+    text-align: center;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(20, 20, 20, 0.8);
+    color: white;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+    border-color: var(--accent-1);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 0 5%;
+}
+
+.project-card {
+    background: rgba(20, 20, 20, 0.6);
+    padding: 1.5rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(var(--accent-1), 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    background: rgba(20, 20, 20, 0.8);
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.project-card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.project-card ul {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    list-style-type: square;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.project-card .tech-stack i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.project-card .tech-stack i:hover {
+    opacity: 1;
+}
+
+.view-all-projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.view-all-projects .button {
+    width: 80%; 
+    max-width: 1200px; 
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(45deg, var(--accent-1), var(--accent-2));
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.view-all-projects .button:hover {
+    transform: translateY(-2px);
+}
+
+.projects {
+    padding: 5rem 5%;
+    margin-top: 4rem;
+}
