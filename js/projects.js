@@ -62,6 +62,14 @@ const projects = [
         techStack: ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square", "fas fa-paint-brush"],
         link: "https://buzzinfo.pages.dev/pages/main",
         buttonText: "Visit Now"
+    },
+    {
+        title: "Friscco Plaza Website",
+        description: "A troll website that I used for a school project including:",
+        features: ["Like 2 html elements", "Funny stuff", "#BusinessIntroduction", "and uh Idk."],
+        techStack: ["fab fa-html5", "fab fa-css3-alt"],
+        link: "https://github.com/TeutonicTerrror/Friscco",
+        buttonText: "Visit Repository"
     }
 ];
 
