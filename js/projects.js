@@ -78,6 +78,14 @@ const projects = [
         techStack: ["fab fa-html5", "fab fa-css3-alt"],
         link: "https://github.com/TeutonicTerrror/Friscco",
         buttonText: "Visit Repository"
+    },
+    {
+        title: "Lava Chicken Lyrics Webpage",
+        description: "A troll website just has Steve's Lava Chicken Song Lyrics from 'A Minecraft Movie':",
+        features: ["A copy button", "Advanced keyframes", "Funny designs", "Unique CSS Frames"],
+        techStack: ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+        link: "https://github.com/TeutonicTerrror/LavaChicken",
+        buttonText: "Visit Repository"
     }
 ];
 
