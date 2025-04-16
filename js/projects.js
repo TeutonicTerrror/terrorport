@@ -64,6 +64,14 @@ const projects = [
         buttonText: "Download Now"
     },
     {
+        title: "Lava Chicken Lyrics Webpage",
+        description: "A troll website that I made for my friend, which just has Steve's Lava Chicken Song Lyrics from 'A Minecraft Movie'. It features all of these things:",
+        features: ["A copy button", "Advanced keyframes", "Stylish Designs", "Unique CSS Frames"],
+        techStack: ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+        link: "https://github.com/TeutonicTerrror/LavaChicken",
+        buttonText: "Visit Repository"
+    },
+    {
         title: "Buzzworthy Website",
         description: "An advanced website including:",
         features: ["Lots of bee facts", "Modern sources page", "Cool GUI", "Accurate information"],
@@ -77,14 +85,6 @@ const projects = [
         features: ["Like 2 html elements", "Funny stuff", "#BusinessIntroduction", "and uh Idk."],
         techStack: ["fab fa-html5", "fab fa-css3-alt"],
         link: "https://github.com/TeutonicTerrror/Friscco",
-        buttonText: "Visit Repository"
-    },
-    {
-        title: "Lava Chicken Lyrics Webpage",
-        description: "A troll website just has Steve's Lava Chicken Song Lyrics from 'A Minecraft Movie':",
-        features: ["A copy button", "Advanced keyframes", "Funny designs", "Unique CSS Frames"],
-        techStack: ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
-        link: "https://github.com/TeutonicTerrror/LavaChicken",
         buttonText: "Visit Repository"
     }
 ];
