@@ -64,6 +64,14 @@ const projects = [
         buttonText: "Download Now"
     },
     {
+        title: "Minecraft Text Formats: Guide to '§' Website",
+        description: "A website for minecraft bedrock and minecraft pocket edition to let you see all the different format codes with the '§' symbol:",
+        features: ["Advanced Text Displays To See How Things Would Look in Minecraft Chat", "Clean Copy System", "Stylish Designs", "Public Repository: github.com/TeutonicTerrror/MCPESymbolGuide"],
+        techStack: ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
+        link: "https://mctextformatting.pages.dev/",
+        buttonText: "Visit Website"
+    },
+    {
         title: "Lava Chicken Lyrics Webpage",
         description: "A troll website that I made for my friend, which just has Steve's Lava Chicken Song Lyrics from 'A Minecraft Movie'. It features all of these things:",
         features: ["A copy button", "Advanced keyframes", "Stylish Designs", "Unique CSS Frames"],
