@@ -66,7 +66,7 @@ const projects = [
     {
         title: "Minecraft Text Formats: Guide to '§' Website",
         description: "A website for minecraft bedrock and minecraft pocket edition to let you see all the different format codes with the '§' symbol:",
-        features: ["Advanced Text Displays To See How Things Would Look in Minecraft Chat", "Clean Copy System", "Stylish Designs", "Public Repository: github.com/TeutonicTerrror/MCPESymbolGuide"],
+        features: ["Advanced Text Displays To See How Things Would Look in Minecraft Chat", "Clean Copy System", "Stylish Designs", "Public Rep (TeutonicTerrror/MCPESymbolGuide)"],
         techStack: ["fab fa-html5", "fab fa-css3-alt", "fab fa-js-square"],
         link: "https://mctextformatting.pages.dev/",
         buttonText: "Visit Website"
