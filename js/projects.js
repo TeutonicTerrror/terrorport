@@ -72,6 +72,14 @@ const projects = [
         buttonText: "Visit Website"
     },
     {
+        title: "Terrial: A Flarial Mod",
+        description: "A mod for the minecraft client flarial, featuring:",
+        features: ["Advanced Click GUI", "red Themeing", "Presets For Every Mod", "Performance Optimized"],
+        techStack: ["fab fa-js-square"],
+        link: "https://github.com/TeutonicTerrror/TeutonicFlarial/releases/tag/v1.0.0",
+        buttonText: "Download Here!"
+    },
+    {
         title: "Lava Chicken Lyrics Webpage",
         description: "A troll website that I made for my friend, which just has Steve's Lava Chicken Song Lyrics from 'A Minecraft Movie'. It features all of these things:",
         features: ["A copy button", "Advanced keyframes", "Stylish Designs", "Unique CSS Frames"],
