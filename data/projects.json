@@ -1,0 +1,78 @@
+[
+    {
+    "title": "Purpura",
+    "icon": "fab fa-chrome",
+    "screenshots": ["images/screenshots/purpura/Screenshot_1.png", "images/screenshots/purpura/Screenshot_2.png", "images/screenshots/purpura/Screenshot_3.png", "images/screenshots/purpura/Screenshot_4.png", "images/screenshots/purpura/Screenshot_5.png"],
+    "description": "Purpura is one of my biggest projects to date. It is a Chrome extension that I developed to enhance and modernize the Roblox website. It was over a year in the making before it's first release, but it is incredibly stable and competes with a lot of the biggest Roblox extensions out there. It has a lot of features, and is very customizable. I am incredibly proud of this project.",
+    "techStack": [
+      {"icon": "fab fa-chrome", "label": "Chrome Extension APIs"},
+      {"icon": "fab fa-js", "label": "JavaScript"},
+      {"icon": "fab fa-html5", "label": "HTML5"},
+      {"icon": "fab fa-css3-alt", "label": "CSS3"}
+    ],
+    "buttons": [
+      {"text": "Install", "link": "https://chromewebstore.google.com/detail/lpneoiebggmkhlldeongbcipekohjepc"}
+    ],
+    "featured": true
+  },
+  {
+    "title": "Teutonic Labs",
+    "icon": "fab fa-chrome",
+    "screenshots": ["images/screenshots/teutoniclabs/Screenshot_1.png", "images/screenshots/teutoniclabs/Screenshot_2.png", "images/screenshots/teutoniclabs/Screenshot_3.png"],
+    "description": "This website is a collection of web-based games that I made. It has a lot of fun web games to play that I think are relatively fun! It has a slight german theme to it with the das prefix to the game names, and a lot of the games are centered around it.",
+    "techStack": [
+      {"icon": "fab fa-html5", "label": "HTML5"},
+      {"icon": "fab fa-css3-alt", "label": "CSS3"},
+      {"icon": "fab fa-js", "label": "JavaScript"},
+      {"icon": "devicon-swift-plain", "label": "Swift"}
+    ],
+    "buttons": [
+      {"text": "Visit", "link": "https://teutoniclabs.web.app/"}
+    ],
+    "featured": true
+  },
+  {
+    "title": "TerrorLink",
+    "icon": "fas fa-link",
+    "screenshots": ["images/screenshots/terrorlink/Screenshot_1.png", "images/screenshots/terrorlink/Screenshot_2.png", "images/screenshots/terrorlink/Screenshot_3.png", "images/screenshots/terrorlink/Screenshot_4.png", "images/screenshots/terrorlink/Screenshot_5.png"],
+    "description": "TerrorLink is my first ever application project. This is a windows application for temporary-based chatting. It was made as a way to chat on games with text-chat bans or age restrictions. It is privacy focused with no account or database and has a simple 1-click hosting system. I am very proud of how this project turned out.",
+    "techStack": [
+      {"icon": "fab fa-node-js", "label": "Node.js"},
+      {"icon": "fab fa-js", "label": "JavaScript"},
+      {"icon": "devicon-cplusplus-plain", "label": "C++"},
+      {"icon": "fab fa-css3-alt", "label": "CSS3"},
+      {"icon": "fab fa-html5", "label": "HTML5"}
+    ],
+    "buttons": [
+      {"text": "Download", "link": "https://github.com/TeutonicTerrror/TerrorLink/releases"}
+    ],
+    "featured": true
+  },
+  {
+    "title": "Hytale Share Code Cracker",
+    "screenshots": ["images/screenshots/hscc/Screenshot_1.png", "images/screenshots/hscc/Screenshot_2.png"],
+    "description": "HSCC is a very simple Python script to crack Hytale share codes into legible JSON since Hytale publicized their encryption method.",
+    "techStack": [
+      {"icon": "devicon-python-plain", "label": "Python"}
+    ],
+    "buttons": [
+      {"text": "Download", "link": "https://github.com/TeutonicTerrror/HytaleSCCracker/releases/"},
+      {"text": "Source Code", "link": "https://github.com/TeutonicTerrror/HytaleSCCracker"}
+    ],
+    "featured": false
+  },
+  {
+    "title": "TerrorOS Discord Theme",
+    "icon": "fab fa-discord",
+    "screenshots": ["images/screenshots/terrostheme/Screenshot_1.png", "images/screenshots/terrostheme/Screenshot_2.png"],
+    "description": "TerrorOS Discord Theme is a custom theme for Discord that I created to match a more minimal terminal-like aesthetic. It is based off of the System24 theme.",
+    "techStack": [
+      {"icon": "fab fa-css3-alt", "label": "CSS3"}
+    ],
+    "buttons": [
+      { "text": "Download", "link": "https://github.com/TeutonicTerrror/TerrorOS-Discord/releases/" },
+      { "text": "Source Code", "link": "https://github.com/TeutonicTerrror/TerrorOS-Discord" }
+    ],
+    "featured": false
+  }
+]

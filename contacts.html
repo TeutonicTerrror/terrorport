@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="icon" type="image/png" href="images/profile-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body class="bg-black min-h-screen text-white">
+    <div class="tile-grid fixed inset-0 z-0" id="tile-grid"></div>
+    <header class="fixed w-full top-0 z-50 backdrop-blur-md border-b transition-transform duration-300" style="background: linear-gradient(90deg, rgba(0,0,0,0.85), rgba(15,5,5,0.85), rgba(0,0,0,0.85)); border-color: rgba(255,80,50,0.1)">
+        <nav class="flex justify-between items-center py-4 px-6 md:px-8 max-w-7xl mx-auto">
+            <a href="index.html" class="min-w-0 truncate font-orbitron text-xl font-bold text-accent-red text-glow-subtle">TeutonicTerror</a>
+            <button class="mobile-menu-btn md:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5" aria-label="Toggle navigation" aria-expanded="false" id="menu-toggle" style="pointer-events:auto">
+                <span class="menu-bar w-5 h-0.5 rounded-full transition-all duration-300" style="background:rgba(255,255,255,0.7)"></span>
+                <span class="menu-bar w-5 h-0.5 rounded-full transition-all duration-300" style="background:rgba(255,255,255,0.7)"></span>
+                <span class="menu-bar w-5 h-0.5 rounded-full transition-all duration-300" style="background:rgba(255,255,255,0.7)"></span>
+            </button>
+            <div class="nav-links hidden md:flex space-x-8" id="nav-links">
+                <a href="index.html" class="nav-link text-white/70 hover:text-white font-medium text-sm">About</a>
+                <a href="projects.html" class="nav-link text-white/70 hover:text-white font-medium text-sm">Projects</a>
+                <a href="contacts.html" class="nav-link nav-active text-accent-red font-medium text-sm">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="relative z-10 pt-32 px-6 min-h-screen">
+        <section class="max-w-3xl mx-auto" id="contact">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-orbitron font-bold text-white mb-3">Get In Touch</h2>
+                <p class="text-white/40 font-space">Find me on any of these platforms.</p>
+            </div>
+            <div class="space-y-4">
+                <div class="card cursor-follow reveal flex items-center gap-5 flex-wrap md:flex-nowrap">
+                    <div class="text-white/70 text-2xl flex-shrink-0 w-10 text-center">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <h3 class="font-orbitron text-sm font-bold text-white mb-1">Email</h3>
+                        <p class="text-white/40 font-space text-sm break-all">teutonicterror7285@gmail.com</p>
+                    </div>
+                    <button onclick="navigator.clipboard.writeText('teutonicterror7285@gmail.com');var s=this.querySelector('span');s.textContent='Copied!';setTimeout(function(){s.textContent='Copy Email'},1500)" class="btn-primary text-sm flex-shrink-0 whitespace-nowrap">
+                        <i class="fas fa-copy mr-2 text-xs"></i><span>Copy Email</span>
+                    </button>
+                </div>
+                <div class="card cursor-follow reveal flex items-center gap-5 flex-wrap md:flex-nowrap">
+                    <div class="text-white/70 text-2xl flex-shrink-0 w-10 text-center">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <h3 class="font-orbitron text-sm font-bold text-white mb-1">Discord</h3>
+                        <p class="text-white/40 font-space text-sm">@teutonicterror</p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 flex-shrink-0">
+                        <a href="https://discord.com/users/876293022537621575" class="btn-primary text-sm whitespace-nowrap">
+                            Open Profile
+                        </a>
+                        <button onclick="navigator.clipboard.writeText('<@876293022537621575>');var s=this.querySelector('span');s.textContent='Copied!';setTimeout(function(){s.textContent='Copy ID'},1500)" class="px-3 py-2 rounded-lg text-xs font-space font-medium transition-all duration-200 cursor-pointer whitespace-nowrap" style="background: rgba(88,101,242,0.12); border: 1px solid rgba(88,101,242,0.25); color: #8ea1e1;">
+                            <i class="fas fa-at mr-1" style="font-size: 0.6rem;"></i><span>Copy ID</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="card cursor-follow reveal flex items-center gap-5 flex-wrap md:flex-nowrap">
+                    <div class="text-white/70 text-2xl flex-shrink-0 w-10 text-center">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <h3 class="font-orbitron text-sm font-bold text-white mb-1">GitHub</h3>
+                        <p class="text-white/40 font-space text-sm">TeutonicTerrror</p>
+                    </div>
+                    <a href="https://github.com/TeutonicTerrror" target="_blank" class="btn-primary text-sm flex-shrink-0 whitespace-nowrap">
+                        View Profile
+                    </a>
+                </div>
+                <div class="card cursor-follow reveal flex items-center gap-5 flex-wrap md:flex-nowrap">
+                    <div class="flex-shrink-0 w-10 flex justify-center">
+                        <img src="images/ko-fi.svg" alt="Ko-Fi" class="w-6 h-auto">
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <h3 class="font-orbitron text-sm font-bold text-white mb-1">Ko-Fi</h3>
+                        <p class="text-white/40 font-space text-sm">ko-fi.com/teutonic</p>
+                    </div>
+                    <a href="https://ko-fi.com/teutonic" target="_blank" class="btn-primary text-sm flex-shrink-0 whitespace-nowrap">
+                        Support Me
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="relative z-10 backdrop-blur-sm border-t py-6 text-center mt-20" style="background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(15,5,5,0.6), rgba(0,0,0,0.6)); border-color: rgba(255,80,50,0.1)">
+        <p class="text-white/40 font-space text-sm">&copy; 2026 <span class="text-accent-red font-medium">TeutonicTerror</span>. All rights reserved.</p>
+    </footer>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/app.js"></script>
+</html>

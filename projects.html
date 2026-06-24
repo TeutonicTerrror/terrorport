@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="icon" type="image/png" href="images/profile-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body class="bg-black min-h-screen text-white">
+    <div class="tile-grid fixed inset-0 z-0" id="tile-grid"></div>
+    <header class="fixed w-full top-0 z-50 backdrop-blur-md border-b transition-transform duration-300" style="background: linear-gradient(90deg, rgba(0,0,0,0.85), rgba(15,5,5,0.85), rgba(0,0,0,0.85)); border-color: rgba(255,80,50,0.1)">
+        <nav class="flex justify-between items-center py-4 px-6 md:px-8 max-w-7xl mx-auto">
+            <a href="index.html" class="min-w-0 truncate font-orbitron text-xl font-bold text-accent-red text-glow-subtle">TeutonicTerror</a>
+            <button class="mobile-menu-btn md:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5" aria-label="Toggle navigation" aria-expanded="false" id="menu-toggle" style="pointer-events:auto">
+                <span class="menu-bar w-5 h-0.5 rounded-full transition-all duration-300" style="background:rgba(255,255,255,0.7)"></span>
+                <span class="menu-bar w-5 h-0.5 rounded-full transition-all duration-300" style="background:rgba(255,255,255,0.7)"></span>
+                <span class="menu-bar w-5 h-0.5 rounded-full transition-all duration-300" style="background:rgba(255,255,255,0.7)"></span>
+            </button>
+            <div class="nav-links hidden md:flex space-x-8" id="nav-links">
+                <a href="index.html" class="nav-link text-white/70 hover:text-white font-medium text-sm">About</a>
+                <a href="projects.html" class="nav-link nav-active text-accent-red font-medium text-sm">Projects</a>
+                <a href="contacts.html" class="nav-link text-white/70 hover:text-white font-medium text-sm">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="relative z-10 pt-32 px-6 min-h-screen">
+        <section class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-orbitron font-bold text-white mb-4">All Projects</h2>
+                <p class="text-white/50 font-space mb-8">Everything I've built and am building.</p>
+                <div class="max-w-md mx-auto relative">
+                    <input
+                        type="text"
+                        id="search-input"
+                        placeholder="Search projects..."
+                            class="w-full pl-11 pr-5 py-3 backdrop-blur-sm border rounded-lg text-white placeholder-white/40 focus:outline-none transition-colors duration-300 text-sm bg-transparent"
+                        style="background: linear-gradient(135deg, rgba(30,10,8,0.7), rgba(15,5,3,0.7)); border-color: rgba(255,80,50,0.15)"
+                    >
+                    <svg class="absolute w-4 h-4 text-white/50 pointer-events-none" style="left: 1rem; top: 50%; transform: translateY(-50%)" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="M21 21l-4.35-4.35"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="flex flex-col" id="project-grid"></div>
+        </section>
+    </main>
+    <footer class="relative z-10 backdrop-blur-sm border-t py-6 text-center mt-20" style="background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(15,5,5,0.6), rgba(0,0,0,0.6)); border-color: rgba(255,80,50,0.1)">
+        <p class="text-white/40 font-space text-sm">&copy; 2026 <span class="text-accent-red font-medium">TeutonicTerror</span>. All rights reserved.</p>
+    </footer>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/projects.js"></script>
+</html>

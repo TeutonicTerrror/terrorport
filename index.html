@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="icon" type="image/png" href="images/profile-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" id="opendyslexic-font" href="https://fonts.cdnfonts.com/css/opendyslexic">
+</head>
+<body class="bg-black min-h-screen text-white">
+    <div class="tile-grid fixed inset-0 z-0" id="tile-grid"></div>
+    <header class="fixed w-full top-0 z-50 backdrop-blur-md border-b transition-transform duration-300" style="background: linear-gradient(90deg, rgba(0,0,0,0.85), rgba(15,5,5,0.85), rgba(0,0,0,0.85)); border-color: rgba(255,80,50,0.1)">
+        <nav class="flex justify-between items-center py-4 px-6 md:px-8 max-w-7xl mx-auto">
+            <a href="index.html" class="min-w-0 truncate font-orbitron text-xl font-bold text-accent-red text-glow-subtle">TeutonicTerror</a>
+            <button class="mobile-menu-btn md:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5" aria-label="Toggle navigation" aria-expanded="false" id="menu-toggle" style="pointer-events:auto">
+                <span class="menu-bar w-5 h-0.5 rounded-full transition-all duration-300" style="background:rgba(255,255,255,0.7)"></span>
+                <span class="menu-bar w-5 h-0.5 rounded-full transition-all duration-300" style="background:rgba(255,255,255,0.7)"></span>
+                <span class="menu-bar w-5 h-0.5 rounded-full transition-all duration-300" style="background:rgba(255,255,255,0.7)"></span>
+            </button>
+            <div class="nav-links hidden md:flex space-x-8" id="nav-links">
+                <a href="index.html" class="nav-link nav-active text-accent-red font-medium text-sm">About</a>
+                <a href="projects.html" class="nav-link text-white/70 hover:text-white font-medium text-sm">Projects</a>
+                <a href="contacts.html" class="nav-link text-white/70 hover:text-white font-medium text-sm">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="relative z-10 pt-20">
+        <section class="min-h-screen flex items-center justify-center relative">
+            <div class="hero-content max-w-4xl mx-auto px-6 w-full">
+                <div class="flex flex-col md:flex-row items-center gap-8 md:gap-14">
+                    <div class="shrink-0 animate-fade-in-scale">
+                        <div class="relative">
+                            <div class="absolute inset-0 rounded-full bg-black"></div>
+                            <img src="images/Profile_NoGlow.png" alt="TeutonicTerror" class="relative w-36 h-36 md:w-52 md:h-52 rounded-full object-cover border-2" style="border-color: rgba(255,80,50,0.3)">
+                        </div>
+                    </div>
+                    <div class="text-center md:text-left min-w-0 w-full">
+                        <h1 class="text-4xl md:text-6xl font-orbitron font-bold mb-5 text-white break-words" id="hero-heading"></h1>
+                        <p class="text-base md:text-lg text-white/50 mb-8 font-space leading-relaxed animate-fade-in-up" style="animation-delay: 1.0s">
+                            I'm a passionate developer with a love for creating websites, browser extensions, and desktop apps. I also love to make small coding snippets to make life easier. My goal is to build innovative solutions that make a difference in people's digital life.
+                        </p>
+                        <div class="tech-stack-container mb-8 overflow-hidden relative animate-fade-in-up" style="animation-delay: 1.2s">
+                            <div class="flex w-max animate-scroll-horizontal" style="animation-duration: 40s" id="tech-track"></div>
+                        </div>
+                        <div class="flex justify-center items-center gap-6 animate-fade-in-up" style="animation-delay: 1.4s">
+                            <a href="projects.html" class="btn-accent text-lg">View Projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="relative z-10 backdrop-blur-sm border-t py-6 text-center" style="background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(15,5,5,0.6), rgba(0,0,0,0.6)); border-color: rgba(255,80,50,0.1)">
+        <p class="text-white/40 font-space text-sm">&copy; 2026 <span class="text-accent-red font-medium">TeutonicTerror</span>. All rights reserved.</p>
+    </footer>
+    <div class="a11y-widget" role="complementary" aria-label="Accessibility options">
+        <button class="a11y-toggle-btn" aria-label="Open accessibility settings" aria-expanded="false" aria-controls="a11y-panel" id="a11y-toggle">
+            <i class="fas fa-universal-access" aria-hidden="true"></i>
+        </button>
+        <div class="a11y-panel" id="a11y-panel" role="dialog" aria-label="Accessibility settings" aria-modal="false">
+            <div class="a11y-panel-title" aria-hidden="true">Accessibility</div>
+            <div class="a11y-option">
+                <label>
+                    <div class="a11y-option-info">
+                        <span class="a11y-option-name">Colorblind Mode</span>
+                        <span class="a11y-option-desc">Shifts red tones to blue</span>
+                    </div>
+                    <input type="checkbox" id="a11y-colorblind" aria-label="Toggle colorblind mode">
+                    <span class="a11y-toggle-switch" aria-hidden="true"></span>
+                </label>
+            </div>
+            <div class="a11y-option">
+                <label>
+                    <div class="a11y-option-info">
+                        <span class="a11y-option-name" style="font-family:'OpenDyslexic',Arial,Helvetica,sans-serif;letter-spacing:0.08em;word-spacing:0.14em">Dyslexia-Friendly Font</span>
+                        <span class="a11y-option-desc">OpenDyslexic typeface</span>
+                    </div>
+                    <input type="checkbox" id="a11y-dyslexia" aria-label="Toggle dyslexia-friendly font">
+                    <span class="a11y-toggle-switch" aria-hidden="true"></span>
+                </label>
+            </div>
+            <div class="a11y-option">
+                <label>
+                    <div class="a11y-option-info">
+                        <span class="a11y-option-name">Reduce Motion</span>
+                        <span class="a11y-option-desc">Stops animations</span>
+                    </div>
+                    <input type="checkbox" id="a11y-motion" aria-label="Toggle reduced motion">
+                    <span class="a11y-toggle-switch" aria-hidden="true"></span>
+                </label>
+            </div>
+            <div class="a11y-option">
+                <label>
+                    <div class="a11y-option-info">
+                        <span class="a11y-option-name">High Contrast</span>
+                        <span class="a11y-option-desc">Increases text visibility</span>
+                    </div>
+                    <input type="checkbox" id="a11y-contrast" aria-label="Toggle high contrast mode">
+                    <span class="a11y-toggle-switch" aria-hidden="true"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        (function() {
+            var h1 = document.getElementById('hero-heading');
+            if (!h1) return;
+            var pre = "Hi, I'm ";
+            var name = "TeutonicTerror";
+            var i = 0;
+            function type() {
+                if (i < pre.length) {
+                    h1.textContent += pre[i];
+                    i++;
+                    setTimeout(type, 50);
+                } else if (i < pre.length + name.length) {
+                    if (i === pre.length) {
+                        h1.innerHTML += '<span class="text-accent-red text-glow-subtle">';
+                    }
+                    h1.lastChild.textContent += name[i - pre.length];
+                    i++;
+                    setTimeout(type, 60);
+                }
+            }
+            setTimeout(type, 250);
+        })();
+    </script>
+    <script>
+        (function() {
+            var track = document.getElementById('tech-track');
+            if (!track) return;
+            fetch('data/techstack.json')
+                .then(function(r) { return r.json(); })
+                .then(function(items) {
+                    var row = document.createElement('div');
+                    row.className = 'flex gap-4 shrink-0 pr-4';
+                    items.forEach(function(name) {
+                        var span = document.createElement('span');
+                        span.className = 'border px-5 py-2.5 rounded-full text-white/80 font-medium text-sm flex-shrink-0';
+                        span.style.background = 'linear-gradient(135deg, rgba(40,15,10,0.5), rgba(20,8,5,0.5))';
+                        span.style.borderColor = 'rgba(255,80,50,0.12)';
+                        span.textContent = name;
+                        row.appendChild(span);
+                    });
+                    track.appendChild(row);
+                    track.appendChild(row.cloneNode(true));
+                    track.appendChild(row.cloneNode(true));
+                    track.appendChild(row.cloneNode(true));
+                })
+                .catch(function() {
+                    track.innerHTML = '<span class="text-white/30 font-space text-sm">Failed to load tech stack.</span>';
+                });
+        })();
+    </script>
+</html>
