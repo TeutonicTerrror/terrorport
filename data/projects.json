@@ -34,7 +34,7 @@
   {
     "title": "TerrorLink",
     "icon": "fas fa-link",
-    "screenshots": ["images/screenshots/terrorlink/Screenshot_1.png", "images/screenshots/terrorlink/Screenshot_2.png", "images/screenshots/terrorlink/Screenshot_3.png", "images/screenshots/terrorlink/Screenshot_4.png", "images/screenshots/terrorlink/Screenshot_5.png"],
+    "screenshots": ["images/screenshots/terrorlink/Screenshot_1.png", "images/screenshots/terrorlink/Screenshot_2.png", "images/screenshots/terrorlink/Screenshot_3.png", "images/screenshots/terrorlink/Screenshot_4.png", "images/screenshots/terrorlink/Screenshot_5.png", "images/screenshots/terrorlink/Screenshot_6.png", "images/screenshots/terrorlink/Screenshot_7.png", "images/screenshots/terrorlink/Screenshot_8.png"],
     "description": "TerrorLink is my first ever application project. This is a windows application for temporary-based chatting. It was made as a way to chat on games with text-chat bans or age restrictions. It is privacy focused with no account or database and has a simple 1-click hosting system. I am very proud of how this project turned out.",
     "techStack": [
       {"icon": "fab fa-node-js", "label": "Node.js"},
