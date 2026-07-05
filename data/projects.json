@@ -65,7 +65,7 @@
   {
     "title": "TerrorOS Discord Theme",
     "icon": "fab fa-discord",
-    "screenshots": ["images/screenshots/terrostheme/Screenshot_1.png", "images/screenshots/terrostheme/Screenshot_2.png"],
+    "screenshots": ["images/screenshots/terrostheme/Screenshot_1.png", "images/screenshots/terrostheme/Screenshot_2.png", "images/screenshots/terrostheme/Screenshot_3.png", "images/screenshots/terrostheme/Screenshot_4.png", "images/screenshots/terrostheme/Screenshot_5.png", "images/screenshots/terrostheme/Screenshot_6.png"],
     "description": "TerrorOS Discord Theme is a custom theme for Discord that I created to match a more minimal terminal-like aesthetic. It is based off of the System24 theme.",
     "techStack": [
       {"icon": "fab fa-css3-alt", "label": "CSS3"}
