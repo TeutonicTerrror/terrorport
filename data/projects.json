@@ -11,7 +11,8 @@
       {"icon": "fab fa-css3-alt", "label": "CSS3"}
     ],
     "buttons": [
-      {"text": "Install", "link": "https://chromewebstore.google.com/detail/lpneoiebggmkhlldeongbcipekohjepc"}
+      {"text": "Install", "link": "https://chromewebstore.google.com/detail/lpneoiebggmkhlldeongbcipekohjepc"},
+      {"text": "Discord", "link": "https://discord.com/invite/TT4sgtEkNV"}
     ],
     "featured": true
   },
