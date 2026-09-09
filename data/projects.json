@@ -12,7 +12,8 @@
     ],
     "buttons": [
       {"text": "Install", "link": "https://chromewebstore.google.com/detail/lpneoiebggmkhlldeongbcipekohjepc"},
-      {"text": "Discord Community", "link": "https://discord.com/invite/TT4sgtEkNV"}
+      {"text": "Github", "link": "https://github.com/TeutonicTerrror/Purpura-Project"},
+      {"text": "Discord", "link": "https://discord.com/invite/TT4sgtEkNV"}
     ],
     "featured": true
   },
