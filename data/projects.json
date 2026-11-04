@@ -2,7 +2,7 @@
     {
     "title": "Purpura",
     "icon": "fab fa-chrome",
-    "screenshots": ["images/screenshots/purpura/Screenshot_1.png", "images/screenshots/purpura/Screenshot_2.png", "images/screenshots/purpura/Screenshot_3.png", "images/screenshots/purpura/Screenshot_4.png", "images/screenshots/purpura/Screenshot_5.png"],
+    "screenshots": ["images/screenshots/purpura/Screenshot_1.png", "images/screenshots/purpura/Screenshot_2.png", "images/screenshots/purpura/Screenshot_3.png", "images/screenshots/purpura/Screenshot_4.png", "images/screenshots/purpura/Screenshot_5.png", "images/screenshots/purpura/Screenshot_6.png", "images/screenshots/purpura/Screenshot_7.png", "images/screenshots/purpura/Screenshot_8.png"],
     "description": "Purpura is one of my biggest projects to date. It is a Chrome extension that I developed to enhance and modernize the Roblox website. It was over a year in the making before it's first release, but it is incredibly stable and competes with a lot of the biggest Roblox extensions out there. It has a lot of features, and is very customizable. I am incredibly proud of this project.",
     "techStack": [
       {"icon": "fab fa-chrome", "label": "Chrome Extension APIs"},
