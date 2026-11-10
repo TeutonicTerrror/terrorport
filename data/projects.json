@@ -21,7 +21,7 @@
   {
     "title": "TerrorLink",
     "icon": "fas fa-link",
-    "screenshots": ["images/screenshots/terrorlink/Screenshot_1.png", "images/screenshots/terrorlink/Screenshot_2.png", "images/screenshots/terrorlink/Screenshot_3.png", "images/screenshots/terrorlink/Screenshot_4.png", "images/screenshots/terrorlink/Screenshot_5.png", "images/screenshots/terrorlink/Screenshot_6.png"],
+    "screenshots": ["images/screenshots/terrorlink/Screenshot_1.png", "images/screenshots/terrorlink/Screenshot_2.png", "images/screenshots/terrorlink/Screenshot_3.png", "images/screenshots/terrorlink/Screenshot_4.png", "images/screenshots/terrorlink/Screenshot_5.png"],
     "description": "Terrorlink is a simple and efficient ephemeral temporary chatting app made for Windows. It is the first application I have ever made, and it is written in Rust. It is lightning fast, and the graphics are rendered with GPUI to ensure that nothing lags behind. It was created to be the \"replacement\" for in-game text chats. ",
     "techStack": [
       {"icon": "fab fa-rust", "label": "Rust"},
