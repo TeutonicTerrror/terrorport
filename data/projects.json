@@ -21,14 +21,11 @@
   {
     "title": "TerrorLink",
     "icon": "fas fa-link",
-    "screenshots": ["images/screenshots/terrorlink/Screenshot_1.png", "images/screenshots/terrorlink/Screenshot_2.png", "images/screenshots/terrorlink/Screenshot_3.png", "images/screenshots/terrorlink/Screenshot_4.png", "images/screenshots/terrorlink/Screenshot_5.png", "images/screenshots/terrorlink/Screenshot_6.png", "images/screenshots/terrorlink/Screenshot_7.png", "images/screenshots/terrorlink/Screenshot_8.png"],
-    "description": "TerrorLink is my first ever application project. This is a windows application for temporary-based chatting. It was made as a way to chat on games with text-chat bans or age restrictions. It is privacy focused with no account or database and has a simple 1-click hosting system. I am very proud of how this project turned out.",
+    "screenshots": ["images/screenshots/terrorlink/Screenshot_1.png", "images/screenshots/terrorlink/Screenshot_2.png", "images/screenshots/terrorlink/Screenshot_3.png", "images/screenshots/terrorlink/Screenshot_4.png", "images/screenshots/terrorlink/Screenshot_5.png", "images/screenshots/terrorlink/Screenshot_6.png"],
+    "description": "Terrorlink is a simple and efficient ephemeral temporary chatting app made for Windows. It is the first application I have ever made, and it is written in Rust. It is lightning fast, and the graphics are rendered with GPUI to ensure that nothing lags behind. It was created to be the \"replacement\" for in-game text chats. ",
     "techStack": [
-      {"icon": "fab fa-node-js", "label": "Node.js"},
-      {"icon": "fab fa-js", "label": "JavaScript"},
-      {"icon": "devicon-cplusplus-plain", "label": "C++"},
-      {"icon": "fab fa-css3-alt", "label": "CSS3"},
-      {"icon": "fab fa-html5", "label": "HTML5"}
+      {"icon": "fab fa-rust", "label": "Rust"},
+      {"img": "images/zed-logo.svg", "label": "GPUI"}
     ],
     "buttons": [
       {"text": "Download", "link": "https://github.com/TeutonicTerrror/TerrorLink/releases"},
@@ -39,13 +36,12 @@
   {
     "title": "Teutonic Labs",
     "icon": "fab fa-chrome",
-    "screenshots": ["images/screenshots/teutoniclabs/Screenshot_1.png", "images/screenshots/teutoniclabs/Screenshot_2.png", "images/screenshots/teutoniclabs/Screenshot_3.png"],
-    "description": "This website is a collection of web-based games that I made. It has a lot of fun web games to play that I think are relatively fun! It has a slight german theme to it with the das prefix to the game names, and a lot of the games are centered around it.",
+    "screenshots": ["images/screenshots/teutoniclabs/Screenshot_1.png", "images/screenshots/teutoniclabs/Screenshot_2.png", "images/screenshots/teutoniclabs/Screenshot_3.png", "images/screenshots/teutoniclabs/Screenshot_4.png", "images/screenshots/teutoniclabs/Screenshot_5.png", "images/screenshots/teutoniclabs/Screenshot_6.png", "images/screenshots/teutoniclabs/Screenshot_7.png", "images/screenshots/teutoniclabs/Screenshot_8.png", "images/screenshots/teutoniclabs/Screenshot_9.png", "images/screenshots/teutoniclabs/Screenshot_10.png", "images/screenshots/teutoniclabs/Screenshot_11.png", "images/screenshots/teutoniclabs/Screenshot_12.png", "images/screenshots/teutoniclabs/Screenshot_13.png", "images/screenshots/teutoniclabs/Screenshot_14.png", "images/screenshots/teutoniclabs/Screenshot_15.png"],
+    "description": "This website is a collection of web-based games that I made. It has a lot of fun web games to play, and I think the site is incredibly fun! I had a joyous time developing this site, especially the Shotgun Steve game, it’s basically my pride and joy side-project. The image carousel generally focuses on Shotgun Steve since it was the majority of the site development and is the most funded game on Teutonic Labs.",
     "techStack": [
       {"icon": "fab fa-html5", "label": "HTML5"},
       {"icon": "fab fa-css3-alt", "label": "CSS3"},
-      {"icon": "fab fa-js", "label": "JavaScript"},
-      {"icon": "devicon-swift-plain", "label": "Swift"}
+      {"icon": "fab fa-js", "label": "JavaScript"}
     ],
     "buttons": [
       {"text": "Visit", "link": "https://teutoniclabs.web.app/"}

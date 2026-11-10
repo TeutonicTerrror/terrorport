@@ -18,7 +18,10 @@ function renderFeaturedProjects(projects) {
         '<p class="text-white/50 font-space text-sm leading-relaxed mb-5">' + project.description + '</p>' +
         '<div class="flex gap-3 mb-5 text-lg">' +
             project.techStack.map(function(tech) {
-                return '<i class="' + tech.icon + ' text-white/40 hover:text-accent-warm transition-colors" title="' + tech.label + '"></i>';
+                var cls = ' text-white/40 hover:text-accent-warm transition-colors" title="' + tech.label + '"';
+                return tech.img
+                    ? '<i class="inline-block align-middle' + cls + ' style="width:1em;height:1em;background:currentColor;-webkit-mask:url(' + tech.img + ') center/contain no-repeat;mask:url(' + tech.img + ') center/contain no-repeat"></i>'
+                    : '<i class="' + tech.icon + cls + '></i>';
             }).join("") +
         '</div>' +
         '<div class="flex flex-wrap gap-2">' +
